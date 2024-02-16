@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/epicode_logo.png" alt="epicode_logo" />
+    </header>
+    <main>
+        <div>
+            <h1><span>Welcome to</span> <br /><b>your exam</b></h1>
+        </div>
+        <div>
+            <h3>Instructions</h3>
+        </div>
+        <div id="paragrafo1">
+            <p>
+                We don't expect most engineers to know the answers to all of these
+                questions, so don't worry if you're ensure of a few of them.
+            </p>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    Each question is <b>timed</b> and can only
+                    <b>be answered once.</b>
+                </li>
+                <li>
+                    Changing browser tab or opening other windows will
+                    <b>invalidate the question</b>.
+                </li>
+                <li>This exam will take approx. <b>0-5 minutes.</b></li>
+            </ul>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" /><label for="checkbox">I promise to answer myself without help from
+                anyone</label>
+            <button class="bottone" id="bottone">PROCEED</button>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close">&times;</span>
+                    <p>Devi accettare i termini e le condizioni per poter procedere.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

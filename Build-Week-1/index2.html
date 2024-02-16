@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina due</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header id="headerDue">
+      <img src="assets/img/epicode_logo.png" alt="epicode_logo" />
+    </header>
+    <main id="main2">
+      <!--Prova Timer-->
+      <div class="countdown-container">
+        <svg class="progressbar" width="200" height="200">
+          <circle class="progressbar-circle" cx="100" cy="100" r="80"></circle>
+          <circle
+            class="progressbar-progress"
+            cx="100"
+            cy="100"
+            r="80"
+          ></circle>
+          <text
+            class="progressbar-text"
+            x="50%"
+            y="50%"
+            dominant-baseline="middle"
+            text-anchor="middle"
+          ></text>
+        </svg>
+      </div>
+      <!--Fine prova timer-->
+      <div>
+        <h1 id="domande"></h1>
+      </div>
+
+      <div id="contenitoreBtn">
+        <div>
+          <button class="btn" id="btn"></button>
+          <button class="btn" id="btnUno"></button>
+        </div>
+        <div>
+          <button class="btn"></button>
+          <button class="btn" id="btnDue"></button>
+        </div>
+      </div>
+      <div>
+        <button class="disabled" id="bottone" disabled>PROCEED</button>
+      </div>
+      <div>
+        <h4>QUESTION <span id="numeroQuestionId">1</span> / 10</h4>
+      </div>
+    </main>
+    <script src="assets/js/script2.js"></script>
+  </body>
+</html>

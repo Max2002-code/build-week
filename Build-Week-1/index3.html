@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<title>Grafico a Ciambella</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+     <header id="headerDue">
+      <img src="assets/img/epicode_logo.png" alt="epicode_logo" />
+    </header>
+    <div class="divPg3">
+        <h1 class="h1pg3">Results</h1>
+        <h2 class="h2pg3">The summary of your answers:</h3>
+    </div>
+    <div class="contenitoreRisultati">
+<div id="sinistra" class="riepilogo">
+      <h2 class="h1pg3" >Correct</h2>
+      <h2 class="h1pg3" id="percentualeCorrette"></h2>
+      <p id="numCorrette"></p>
+    </div>
+<div class="chart-container">
+    <canvas id="myChart"></canvas>
+    <div id="commento">
+    </div>
+    <h2 id="sottoCommento"></h2>
+    <p id="testoCommento"></p> 
+</div>
+<div id="destra" class="riepilogo">
+      <h2 class="h1pg3">Incorrect</h2>
+      <h2 class="h1pg3" id="percentualeIncorrette"></h2>
+      <p id="numIncorrette"></p>
+    </div>
+    </div>
+    
+    <button id="pg4" class="btnpg3">RATE US</button>
+    
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="assets/js/script3.js"></script>
+
+</body>
+</html>
+
+

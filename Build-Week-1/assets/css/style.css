@@ -1,0 +1,426 @@
+body {
+  
+  color: white;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  font-family: "Inter", sans-serif; 
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  margin: 0px 170px;
+  
+}
+
+section p,
+ul,
+li,
+li b,
+label,
+input[type="text"] {
+  font-family: "Inter", sans-serif;
+}
+
+header img {
+  width: 10em;
+}
+
+header {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+/*Prima pagina HTML*/
+h1 {
+  line-height: 0.8;
+  font-size: 5em;
+  margin-bottom: 0.3em;
+}
+
+h1 span {
+  font-weight: 350;
+  color: white;
+}
+#spesso {
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.7em;
+  color: #d20094;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#paragrafo1 {
+  width: 55%;
+  margin-bottom: 50px;
+}
+
+#paragrafo1 p {
+  margin-top: 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+ul {
+  margin-bottom: 100px;
+}
+
+ul li {
+  font-size: 1em;
+}
+
+#checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+
+}
+
+label {
+  font-size: 1em;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  color: rgb(8, 8, 8) ;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #00ffff;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 10px;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+.disabled {
+  background-color: rgba(128, 128, 128, 0.423);
+  text-transform: uppercase;
+  width: 10em;
+  font-weight: bold;
+  padding: 18px 45px;
+  color: rgba(0, 0, 0, 0.455);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  position: relative;
+  right: -386px;
+}
+.bottone {
+  text-transform: uppercase;
+  width: 10em;
+  font-weight: bold;
+  padding: 18px 45px;
+  background-color: #00ffff;
+  color: black;
+  border: none;
+  box-shadow: 0px 0px 30px #00ffff;
+  cursor: pointer;
+  font-size: 24px;
+  position: relative;
+  right: -386px;
+}
+
+/* CSS PAGINA 2*/
+
+#main2 {
+  text-align: center;
+}
+
+.btn {
+  width: 400px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 50px;
+  border: 3px solid white;
+  background-color: transparent;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#btnDue {
+  width: 400px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 50px;
+  border: 3px solid white;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#domande {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.selezionato {
+  background-color: rgb(220, 1, 220);
+}
+
+span {
+  color: #d20094;
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+/*PROVA TIMER*/
+
+.countdown-container {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.progressbar {
+  position: relative;
+}
+
+.progressbar-circle {
+  fill: transparent;
+  stroke: rgb(247, 242, 242, 0.2);
+  stroke-width: 20;
+
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.progressbar-progress {
+  fill: none;
+  stroke: #00ffff;
+  stroke-width: 20;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  transition: stroke-dashoffset 1s ease;
+
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.progressbar-text {
+  font-size: 50px;
+  font-weight: 600;
+  fill: white;
+  font-family: Arial, sans-serif;
+}
+
+#headerDue {
+  margin-bottom: 0;
+}
+
+/*pagina 3*/
+#stilepagina3 {
+  color: white;
+}
+.titolo3 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#bottone3 {
+  text-align: center;
+  margin-right: 800px;
+  margin-top: 400px;
+  
+}
+
+.riepilogo {
+  
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 90px;
+}
+.contenitoreRisultati {
+  position: absolute; /* Posizionamento assoluto */
+  top: 50%; /* Spostalo verso il 50% dell'altezza della finestra */
+  left: 50%; /* Spostalo verso il 50% della larghezza della finestra */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Sposta indietro di metà della propria dimensione */
+  text-align: center;
+  width: 100%; /* Allinea il testo al centro */
+}
+
+.chart-container {
+  width: 400px; /* Larghezza desiderata */
+  height: 300px; /* Altezza desiderata */
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.h1pg3 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: -35px;
+  font-weight: 200;
+
+}
+
+#sinistra, #percentualeCorrette{
+  text-align: left;
+  font-weight: 700;
+}
+
+#destra, #percentualeIncorrette {
+  text-align: right;
+  font-weight: 700;
+}
+
+#numCorrette, #numIncorrette{
+  font-weight: 400;
+}
+
+.h2pg3 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+/* PAGINA 4 */
+
+#paginaQuattro {
+  text-align: center;
+}
+
+#paginaQuattro h1 {
+  color: #e7e7eb;
+  font-size: 60px;
+}
+#paginaQuattro h2 {
+  font-weight: 400;
+  width: 26em;
+  margin: 0 auto;
+}
+#headerQuattro {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+#headerQuattro img {
+  width: 10em;
+}
+
+#paginaQuattro span {
+  text-transform: uppercase;
+  color: white;
+}
+
+#paginaQuattro input {
+  width: 43em;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid #d20094;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+}
+
+#stelle {
+  margin-bottom: 3rem;
+  margin-top: 1em;
+}
+
+#Invia {
+  position: static;
+}
+
+.chart-container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.h1pg3 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.h2pg3 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.btnpg3 {
+  width: 50%; /* Larghezza del 50% del contenitore genitore */
+  max-width: 200px; /* Massimo 200px di larghezza */
+  height: auto; /* Altezza automatica in base al contenuto */
+  margin: auto;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: normal; /* Ripristina la line-height normale */
+  padding: 15px 20px; /* Riduci il padding */
+  position: absolute;
+  left: 50%;
+  bottom: 10%; /* Posiziona a 10% dal basso del contenitore */
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#commento{
+  position: relative;
+  bottom: 340px;
+}
+
+#sottoCommento{
+  position: relative;
+  bottom: 360px;
+  font-size: 20px;
+  color: #00ffff ;
+}
+
+#testoCommento{
+  position: relative;
+  bottom: 350px;
+  font-size: 17px;
+  font-weight: 300;
+}
+/*Footer Quarta pagina*/
+
+footer {
+  text-align: center;
+  width: 100%;
+  margin-top: 300px;
+  margin-bottom: 0;
+
+}
+
+footer div {
+  font-size: 30px;
+}
+
+footer div a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
